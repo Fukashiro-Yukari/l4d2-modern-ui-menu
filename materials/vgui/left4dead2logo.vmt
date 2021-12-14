@@ -1,0 +1,10 @@
+UnlitGeneric
+{
+$basetexture "modern_ui/vgui/alpha"
+$translucent 1
+$vertexcolor 0
+$vertexalpha 0
+$ignorez 1
+$additive 0
+$no_fullbright 0
+}
