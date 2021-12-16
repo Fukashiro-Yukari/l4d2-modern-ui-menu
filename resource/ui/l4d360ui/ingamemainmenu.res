@@ -15,11 +15,11 @@
 		"tabPosition"			"0"
 		"PaintBackgroundType"	"0"
 	}
-	
-	"PnlBackground"
+
+	"PnlBackground_tweaks1"
 	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"PnlBackground"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"PnlBackground_tweaks1"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"-999999"
@@ -27,8 +27,23 @@
 		"tall"					"f0"
 		"visible"				"1"
 		"enabled"				"1"
-		"scaleImage"			"1"
-		"image"					"../modern_ui/vgui/black_bg"
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackgroundType"	"0"
+		
+		"PnlBackground_tweaks2"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"PnlBackground_tweaks2"
+			"xpos"					"-10"
+			"ypos"					"0"
+			"zpos"					"0"
+			"wide"					"300"
+			"tall"					"f0"
+			"visible"				"1"			
+			"enabled"				"1"
+			"bgcolor_override"		"0 0 0 255"
+			"PaintBackgroundType"	"3"
+		}
 	}
 
 	"IconReturnToGame"
